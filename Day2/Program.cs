@@ -3,7 +3,8 @@
 int score = 0;
 var options = new string[,] {{"A", "X"}, {"B", "Y"}, {"C", "Z"}};
 
-var rounds = File.ReadLines(@"C:\Users\MSeib\RiderProjects\AdventOfCode\Day2\Day2_Input.txt");
+var rounds = File.ReadLines("../../../Day2_Input.txt");
+
 var winCondition = new int[] { -1, 2 };
 
 foreach (var round in rounds)

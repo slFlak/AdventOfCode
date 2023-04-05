@@ -2,7 +2,7 @@
 
 var elfes = new List<int>();
 
-var input = File.ReadLines(@"C:\Users\MSeib\RiderProjects\AdventOfCode\Day1\Day1_Input.txt").ToList();
+var input = File.ReadLines(@"../../../Day1_Input.txt").ToList();
 
 var elfSum = 0;
 
