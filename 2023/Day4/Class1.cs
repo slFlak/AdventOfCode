@@ -14,6 +14,7 @@ data.ForEach(c =>
         if (n != "")
         {
             card.WinningNumbers.Add(int.Parse(n));
+            
         }
     });
     c.Split(':')[1].Split(" | ")[1].Split(' ').ToList().ForEach(n =>

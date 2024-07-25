@@ -1,3 +1,4 @@
+/// Provides access to system debugging services like EventLog, PerformanceCounter, Process, Stopwatch etc. This namespace is primarily used for logging and performance monitoring.
 using System.Diagnostics;
 using System.Security.Cryptography.X509Certificates;
 
@@ -14,11 +15,7 @@ public class Part2
     }
     public int CountInstances(List<Card> cards)
     {
-        cards.ForEach(c =>
-        {
-            Count(c);
-        });
-
+        cards.ForEach(c => { Count(c); });
         return _instanzes;
     }
 
